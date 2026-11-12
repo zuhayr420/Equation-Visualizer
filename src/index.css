@@ -1,0 +1,88 @@
+@import 'katex/dist/katex.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #09090B;
+  --color-sidebar: #0C0C0E;
+  --color-panel: #141417;
+  --color-panel-hover: #1C1C20;
+  --color-border: #27272A;
+  --color-primary: #FFFFFF;
+  --color-primary-hover: #E4E4E7;
+  --color-primary-muted: rgba(255, 255, 255, 0.1);
+  --color-secondary: #A1A1AA;
+  --color-secondary-hover: #D4D4D8;
+  --color-accent: #FFFFFF;
+  --color-text-main: #FAFAFA;
+  --color-text-muted: #8E8E93;
+}
+
+.light {
+  --color-bg: #FFFFFF;
+  --color-sidebar: #F4F4F5;
+  --color-panel: #FFFFFF;
+  --color-panel-hover: #F4F4F5;
+  --color-border: #E4E4E7;
+  --color-primary: #09090B;
+  --color-primary-hover: #27272A;
+  --color-primary-muted: rgba(0, 0, 0, 0.08);
+  --color-secondary: #52525B;
+  --color-secondary-hover: #27272A;
+  --color-accent: #09090B;
+  --color-text-main: #09090B;
+  --color-text-muted: #71717A;
+}
+
+/* Exclusive Times New Roman typography across all elements */
+html,
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+h1, h2, h3, h4, h5, h6,
+p, span, a, label, table, th, td, div {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  letter-spacing: 0.01em;
+}
+
+/* Restrained, professional monochrome scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* KaTeX custom tweaks: preserve math glyph positioning */
+.katex-display {
+  margin: 0.5em 0 !important;
+}
+
+.katex {
+  font-size: 1.05em;
+}
