@@ -1,9 +1,12 @@
 # MathVision – Mathematics, Made Visible
 
-[![Client-Side Architecture](https://img.shields.io/badge/Architecture-100%25%20In--Browser-blue.svg)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](#)
-[![React](https://img.shields.io/badge/React-19-cyan.svg)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
+[![Demo](https://img.shields.io/badge/Demo-Live%20on%20GitHub%20Pages-brightgreen?style=flat-square)](https://zuhayr420.github.io/Equation-Visualizer/)
+[![CI](https://github.com/zuhayr420/Equation-Visualizer/actions/workflows/ci.yml/badge.svg)](https://github.com/zuhayr420/Equation-Visualizer/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/zuhayr420/Equation-Visualizer/actions/workflows/codeql.yml/badge.svg)](https://github.com/zuhayr420/Equation-Visualizer/actions/workflows/codeql.yml)
+[![Version](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square)](https://github.com/zuhayr420/Equation-Visualizer/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 
 **MathVision** is a professional, frontend-only interactive mathematical visualization, computation, and learning platform. It allows users to enter mathematical equations, solve them with step-by-step verified proofs, explore interactive 2D and 3D graphs, inspect calculus dynamics (tangent lines, Riemann sums, limits, Taylor series), and learn through an integrated AI mathematics tutor.
 
